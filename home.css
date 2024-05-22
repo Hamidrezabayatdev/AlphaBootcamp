@@ -428,7 +428,15 @@ table {
 .container {
 	padding: 0 160px;
 }
-.header {
+.btn {
+	background-color: var(--primary-color);
+	color: #fff;
+	border-radius: 6px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.nav {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -457,13 +465,48 @@ table {
 }
 .header__btn {
 	height: 40px;
-	width: 167px;
-	background-color: var(--primary-color);
-	color: #fff;
-	border: none;
-	border-radius: 6px;
-	padding: 8px 24px 8px 24px;
+	width: 150px;
 }
 .header__mode {
 
+}
+.advertise {
+	margin-top: 113.5px;
+	text-align: center;
+}
+.advertise__top-text {
+	font-size: 46px;
+	line-height: 82.5px;
+	font-weight: 400;
+}
+.advertise__title {
+	font-size: 64px;
+	line-height: 115.5px;
+	font-weight: 900;
+	margin-bottom: 87px;
+	
+}
+.advertise__decription {
+	font-size: 20px;
+	line-height: 31px;
+	margin-bottom: 40px;
+	max-width: 820px;
+	margin: 0 auto;
+	margin-bottom: 40px;
+}
+.advertise__buttons {
+	display: flex;
+	justify-content: center;
+	gap: 16px;
+}
+.advertise__login {
+	width: 200px;
+	height: 48px;
+	
+}
+.advertise__about {
+	width: 200px;
+	height: 48px;
+	background-color: var(--on-primary-light);
+	color: var(--primary-color);
 }
