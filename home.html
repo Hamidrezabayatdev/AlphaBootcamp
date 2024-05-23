@@ -3,13 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="styles/home.css">
+    <link rel="stylesheet" href="styles/responsive.css">
     <title>Document</title>
 </head>
 <body>
     <header class="header">
         <div class="container">
-            <nav class="nav">
+            <nav class="nav">             
+            <svg class="nav__icon" width="50" height="40" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M3 7.5H21" stroke="#292D32" stroke-width="1.5" stroke-linecap="round"/>
+                <path d="M3 12.5H21" stroke="#292D32" stroke-width="1.5" stroke-linecap="round"/>
+                <path d="M3 17.5H21" stroke="#292D32" stroke-width="1.5" stroke-linecap="round"/>
+                </svg>
+                <a class="nav__title" href="">کوئرا لیست</a>
                 <ul class="menu"">
                     <li class="menu__item"><a href="#" class="menu__item__link menu__item__link--bold">کوئرا لیست</a></li>
                     <li class="menu__item"><a href="#" class="menu__item__link">صفحه اصلی</a></li>
@@ -35,7 +42,7 @@
             </nav>
         </div>
     </header>
-    <main class="main">
+    <div class="main">
         <div class="container">
             <section class="advertise">
                 <h3 class="advertise__top-text">تمرکز رو وارد زندگیت کن</h3>
@@ -51,6 +58,7 @@
                 <div class="features__header">
                     <h3 class="features__title">ویژگی‌های اپلیکیشن کوئرالیست</h3>
                     <p class="features__desciption">ما توی تیم کوئرا لیست بر اساس بازخوردهای شما و جدیدترین ترندهای <br> بازار همواره در تلاشیم تا بهترین تجربه کاربری رو براتون به ارمغان بیاریم.</p>
+                    <p class="features__desciption__mobile">زمان در یک روز برای ما محدود است، اما مهمترین کار این است که چگونه از آن استفاده می‌کنیم. با اپلیکیشن کوییرا لیست، زمان خود را با هدف و برنامه‌ریزی موثر سپری کنید."</p>
                 </div>
                 <div class="features__cards">
                     <div class="features__card">
@@ -124,6 +132,6 @@
                 </div>
             </section>
         </div>
-    </main>
+    </div>
 </body>
 </html>
