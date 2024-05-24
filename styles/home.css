@@ -488,6 +488,7 @@ body {
 .main {
   width: 100%;
   background: linear-gradient(180deg, rgba(235,243,255,1) 0%, rgba(255,255,255,1) 40%);
+  /* padding: 0 10px; */
 }
 .advertise {
 	padding-top: 113.5px;
@@ -514,9 +515,9 @@ body {
 .advertise__decription {
 	font-size: 20px;
 	line-height: 31px;
-	margin-bottom: 40px;
 	margin: 0 auto;
   color: #141414;
+  margin-bottom: 40px;
 }
 .advertise__buttons {
 	display: flex;
@@ -537,6 +538,7 @@ body {
 .main__img {
 	display: block;
 	width: 100%;
+  object-fit: contain;
 	border-radius: 12px 12px 0px 0px;
 	margin: 80px auto 124px auto;
 }
@@ -628,6 +630,9 @@ body {
   border-radius: 21px;
   height: 392px;
 }
+.download__cover-box {
+  display: none;
+}
 .download__text {
 
 }
@@ -650,6 +655,7 @@ body {
   margin-top: 40px;
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 .download__text__login {
   margin-left: 10px;
@@ -660,4 +666,91 @@ body {
 }
 .download__text__login__arrow {
 
+}
+.footer {
+  margin-top: 100px;
+}
+.footer__title {
+  text-align: center;
+  margin-bottom: 48px;
+}
+/* .footer__title::after {
+  background: #000;
+  height: 20px;
+  width: 200px;
+} */
+.footer__box {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+  
+}
+.footer__right {
+  width: 300px;
+}
+.footer__card {
+  display: none;
+}
+.footer__fax, .footer__call, .footer__loc {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 24px;
+}
+.footer__fax {
+
+}
+.footer__fax-text {
+  font-size: 14px;
+}
+.footer__call {
+
+}
+.footer__call-text {
+  font-size: 14px;
+}
+.footer__loc {
+
+}
+.footer__loc-text {
+  font-size: 14px;
+  line-height: 20px;
+}
+.footer__left {
+}
+.footer__left__title {
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+.footer__left__description {
+  font-weight: 100;
+  font-size: 14px;
+  line-height: 20px;
+  margin-bottom: 32px;
+}
+.footer__email {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.footer__email__input {
+  border: 1px solid #A1A1A1;
+  border-radius: 10px;
+  padding: 10px 24px 10px 6px;
+  width: 100%;
+  height: 24px;
+  padding-left: 80px;
+}
+.send-btn {
+  width: 33px;
+  padding: 10px 16px 10px 16px;
+  position: absolute;
+  left: 5px;
+}
+.footer__copyright {
+  text-align: center;
+  font-size: 14px;
+  line-height: 20px;
+  margin: 16px auto;
+  color: #666666;
 }
