@@ -21,6 +21,7 @@ body {
 * {
   box-sizing: border-box;
   transition: all 150ms ease;
+  margin: 0;
 }
 a {
   text-decoration: none;
@@ -48,9 +49,10 @@ input:focus {
 }
 .main {
   padding: 20px;
-  height: 100vh;
+  /* height: 100vh; */
   display: flex;
   justify-content: space-between;
+  gap: 200px;
 }
 .sidebar {
   width: 272px;
@@ -61,6 +63,7 @@ input:focus {
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
+  /* margin: auto 0; */
 }
 .sidebar__top {
 
@@ -173,7 +176,7 @@ input:focus {
 }
 .todo {
   width: 740px;
-  margin-left: 180px;
+  margin-left: auto;
 }
 .todo__texts {
   margin-top: 64px;
@@ -316,4 +319,91 @@ input:focus {
 }
 .todo__done__texts {
 
+}
+.todos {
+  width: 100%;
+}
+.todo__card {
+  width: 100%;
+  /* background-color: #e0efff; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 12px;
+  padding: 16px 20px 16px 24px;
+  border: 1px solid #E9E9E9;
+  margin-bottom: 16px;
+}
+.todo__card__right {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.todo__card__color {
+  width: 4px;
+  height: 78px;
+  border-radius: 8px 0px 0px 8px;
+  margin-right: -20px;
+}
+.todo__card__color__up {
+  background: #FF5F37;
+}
+.todo__card__color__mid {
+  background: #FFAF37;
+}
+.todo__card__color__down {
+  background: #11A483;
+}
+.todo__card__content {
+
+}
+.todo__card__head {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+  gap: 16px;
+}
+.todo__checkbox {
+  width: 20px;
+  height: 20px;
+  border-radius: 5px;
+  border: 1px solid #CCCCCC;
+}
+.todo__card__title {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 600;
+  color: #242424;
+}
+.todo__card__tag {
+  
+}
+.todo__card__description {
+  margin-right: 56px;
+  margin-top: 10px;
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 400;
+  color: #727272;
+}
+.todo__card__options {
+  position: relative;
+}
+.todo__card__options__icon {
+  align-self: flex-start;
+  cursor: pointer;
+}
+.todo__card__options__box {
+  display: none;
+  justify-content: space-between;
+  width: 78px;
+  padding: 5px;
+  /* background-color: #007BFF; */
+  border: 1px solid #EBEDEF;
+  box-shadow: 0px 12px 24px -6px #1414190F;
+  border-radius: 8px;
+  position: absolute;
+  left: 4px;
+  bottom: -32px;
 }
