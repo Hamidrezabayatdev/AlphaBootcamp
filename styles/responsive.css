@@ -14,9 +14,7 @@
     .container {
         width: 540px;
     }
-    .menu {
-        gap: 24px;
-    }
+    
 }
 @media (max-width: 576px) {
     .container {
@@ -24,148 +22,8 @@
         margin: 0 auto;
         padding: 0;
     }
-    .menu {
-        display: none;
-    }
-    .header__buttons {
-        display: none;
-    }
-    .nav__icon {
-        display: block;
-    }
-    .nav__title {
-        display: block;
-        margin-left: calc(50vw - 70px);
-        font-size: 24px;
-        font-weight: 600;
-        color: black;
-        text-decoration: none;
-    }
-    .contact__card__description {
-        line-height: 20px;
-        font-size: 10px;
-        margin: 0 12px;
-        color: var(--decpription);
-    }
-    .footer__box {
-        flex-direction: column;
-        justify-content: center;
-        text-align: center;
-    }
-    .footer__fax, .footer__call, .footer__loc {
-        display: none;
-  
-    }
-    .footer__email {
-        width: 75%;
-        margin: 0 auto;
-    }
-    .footer__email__input {
-        /* display: block; */
-        /* margin-right:25vw; */
-    }
-    .footer__cards {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        margin-top: 12px;
-        gap: 10px;
-    }
-    .footer__cards__left {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        gap: 5px;
-    }
-    .footer__left {
-        width: 100%;
-    }
-    .footer__right {
-        margin-top: 20px;
-        /* width: 100%; */
-    }
-    .footer__card {
-        display: block;
-        width: 100%;
-        border-radius: 24px;
-        border: 1px solid #F5F6F8;
-        text-align: center;
-        background-color: #fff;
-    }
-    /* .footer__card__call {
-        margin-bottom: 16px;
-    } */
-    .footer__card__icon__loc {
-        margin: 0 auto;
-    }
-    .footer__card__icon {
-      width: 48px;
-      height: 48px;
-      border-radius: 80px;
-      background-color: #F5FBFF;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      margin-bottom: 16px;
-      margin-top: 26px;
-    }
-    .footer__card__description {
-      line-height: 30px;
-      font-size: 12px;
-      margin: 0 24px;
-      color: var(--decpription);
-    }
-    .footer__card__inside {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      padding: 16px;
-    }
+    
 }
 @media (max-width: 380px) {
-    .form__div {
-        flex-basis: 100%;
-    }
-    .form__submit {
-        width: 100%;
-        height: 40px;
-        border: none;
-        font-family: "yekan";
-        font-size: 16px;
-        font-weight: 400;
-    }
-    .contact__cards {
-        flex-wrap: wrap;
-        gap: 16px;
-    }
-    .contact__card {
-        width: 100%;
-        justify-content: center;
-    }
-    .footer__email {
-        width: 100%;
-    }
-    .footer__cards {
-        flex-wrap: wrap;
-    }
-    .footer__card {
-        width: 100%;
-    }
-    .footer__card__inside {
-        width: 100%;
-    }
-    .footer__cards__left {
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: space-between;
-        gap: 5px;
-    }
-    .footer__card__description {
-        font-size: 10px;
-        margin-left: 16px;
-        margin-right: 8px;
-    }
-    .footer__copyright {
-        font-size: 12px;
-    }
+    
 }
