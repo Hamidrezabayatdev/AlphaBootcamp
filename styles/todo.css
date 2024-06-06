@@ -407,3 +407,47 @@ input:focus {
   left: 4px;
   bottom: -32px;
 }
+.todo__edit {
+  border: 1px solid #E9E9E9;
+  box-shadow: 0px 4px 58.5px 0px #0000000F;
+  padding: 16px 0;
+  border-radius: 12px;
+}
+.todo__edit__texts {
+  margin: 0 16px;
+  margin-bottom: 16px;
+}
+.todo__edit__title {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  color: #242424;
+}
+.todo__edit__description {
+  font-size: 14px;
+  line-height: 21px;
+  color: #727272;
+  font-weight: 400;
+}
+.edit__tag {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  width: 72px;
+  padding: 5px;
+  margin-right: 16px;
+  margin-bottom: 24px;
+}
+.edit__tag__text {
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 600;
+}
+.sep__line {
+  border: 1px solid #E9E9E9;
+}
+.edittask__btn {
+  opacity: 100%;
+  margin-left: 16px;
+}
