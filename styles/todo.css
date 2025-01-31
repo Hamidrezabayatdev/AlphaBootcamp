@@ -186,6 +186,7 @@ input:focus {
   font-size: 20px;
   line-height: 31px;
   font-weight: 800;
+  /* text-decoration: line-through; */
 }
 .todo__description {
   font-size: 14px;
@@ -397,7 +398,7 @@ input:focus {
 .todo__card__options__box {
   display: none;
   justify-content: space-between;
-  width: 78px;
+  /* width: 78px; */
   padding: 5px;
   /* background-color: #007BFF; */
   border: 1px solid #EBEDEF;
@@ -450,4 +451,29 @@ input:focus {
 .edittask__btn {
   opacity: 100%;
   margin-left: 16px;
+}
+@media (max-width: 1200px) {
+  .main {
+    gap: 175px;
+  }
+  
+}
+@media (max-width: 992px) {
+  .main {
+    gap: 150px;
+  }
+  
+}
+@media (max-width: 768px) {
+  .main {
+    gap: 75px;
+  }
+  
+}
+@media (max-width: 576px) {
+  
+  
+}
+@media (max-width: 380px) {
+  
 }
